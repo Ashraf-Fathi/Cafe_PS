@@ -1,0 +1,224 @@
+body {
+	background-color: #d8d8d8;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+
+}
+/*//////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*----------multi-level-accordian-menu------------*/
+.gaming-logo {
+
+    width: 100px;
+}
+.bg-gradient-primary {
+    background-color: #b92525;
+    background-image: linear-gradient(
+180deg
+,#d04040 10%,#47484c 100%);
+    background-size: cover;
+}
+/* start login page */
+.login {
+	width: 300px;
+	margin: 100px auto;
+}
+.login .form-control {
+	margin-bottom: 10px;
+	background-color: #323438;
+	font-color: #fff;
+}
+/* end login page */
+
+/* start homepage */
+.psbox {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	position: relative;
+	
+}
+.psbox .busy span {
+	position: absolute;
+	top: -17px;
+	border-radius: 10px;
+	background: red;
+	color:#fff;
+	padding: 5px;
+
+}
+.psbox .available span {
+	position: absolute;
+	top: -16px;
+	left: -4px;
+	border-radius: 10px;
+	background: #01ff01;
+	color:#000;
+	padding: 3px;
+
+}
+.psbox .text-center {
+	margin: 0px;
+}
+.psbox p {
+	margin: 0px;
+	max-height: 18px;
+}
+.psbox .single {
+	width: 80%;
+	margin:12.5px auto;
+}
+.psbox .container {
+    text-align: center;
+}
+/* end home page*/
+
+.slim{
+	padding: 3px 7px;
+	margin-left: 5px;
+}
+
+/* start dashboard */
+.home-stats .stat {
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	padding: 20px;
+	font-size: 23px;
+	color: #FFF;
+	border-radius: 20px;
+	position: relative;
+	
+}
+.home-stats .stat i {
+	position: absolute;
+	font-size: 60px;
+	top: -40px;
+	left: 0px;
+	
+
+
+}
+.home-stats .stat .info {
+    
+
+}
+.home-stats .stat span {
+	display: block;
+	font-size: 50px;
+}
+.latest {
+	margin-top: 20px;
+}
+.panel-heading {
+
+    background-color: #EEE;
+}
+.home-stats .stat {
+	background-color: #00cec9;
+	transition: transform .2s;
+}
+.home-stats .stat:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.home-stats .st-pending {
+	background-color: #c23616;
+}
+.home-stats .st-items {
+	background-color: #e1b12c;
+}
+.home-stats .st-comments {
+	background-color: #8854d0;
+}
+.home-stats a {
+	text-decoration: none;
+	
+}
+.home-stats a:hover {
+
+}
+
+a {
+	color: #858796;
+	text-decoration: none;
+
+}
+
+a:hover {
+	
+	text-decoration: none;
+
+}
+
+.rb-border {
+  border-right: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+.lb-border {
+  
+  border-bottom: 1px solid #d0d0d0;
+}
+.l-border {
+	border-left: 4px solid #d0d0d0;
+}
+.cash_table td {
+	font-size: 20px;
+	color: red;
+}
+.cash_tablee td {
+	font-size: 22px;
+	color: #1cc88a;
+}
+.cash_table .last {
+	font-size: 35px;
+
+}
+.start-device {
+	border-radius: 50px;
+	padding: 10px 50px 10px 50px;
+	margin-bottom: 4px;
+}
+.start-devicee {
+	border-radius: 50px;
+	padding: 10px 50px 10px 50px;
+	margin-bottom: 4px;
+	background-color: #d2161e;
+
+}
+.laugh-emoji {
+	
+	color: #1fcc00;
+}
+.smile-emoji {
+	
+	color: #eaec3e;
+}
+.meh-emoji {
+	color: #f59608;
+}
+.sad-emoji {
+	color: #fd1700;
+}
+
+
+.laugh-text {
+	font-size: 30px;
+}
+.addmail {
+	margin: 27px auto;
+
+}
+
+
+
+
+
